@@ -1,0 +1,13 @@
+X-axis (Horizontal): Represents time in days. The graph spans from day 0 to around day 100. The title indicates a "30-Day Stock Price Forecast", but the graph actually seems to cover a longer period. Perhaps the first 70 days are historical data, and the last 30 days (from day 70 to 100) represent the forecast.
+
+Y-axis (Vertical): Represents the stock price. It ranges from 10 to slightly above 14. This gives us an idea of the stock's price movement over time.
+
+Solid Line (Historical Data): The solid line plot from day 0 to around day 70 seems to represent the historical stock prices. This data is observed and known, serving as a foundation upon which the forecast is built.
+
+Dashed Line (Forecasted Data): Beginning around day 70, there's a dashed line extending to day 100. This is the ARIMA model's prediction of stock prices for the next 30 days.
+
+Shaded Region (Confidence Interval): Surrounding the dashed forecast line, there's a shaded region that grows wider as time progresses. This is the confidence interval, which gives a range in which the stock price is expected to lie with a certain probability. As we move further into the future, the uncertainty (and thus the width of the confidence interval) increases. The darkest shaded region in the center likely represents a higher confidence (e.g., 68% or one standard deviation) while the lighter shaded region outside of it represents a lower confidence interval (e.g., 95% or two standard deviations).
+
+Horizontal Blue Line: This seems to represent an average or benchmark stock price in the forecasted period. It gives a quick visual reference against which to compare the forecasted prices.
+
+To sum up, this graph showcases the historical movement of a stock's price, and based on that history, it predicts future prices using the ARIMA model. The shaded regions provide an idea of the uncertainty or variability expected in the forecast.
