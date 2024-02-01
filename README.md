@@ -11,7 +11,7 @@ Risk Assessment: Monte Carlo Simulation is used to assess the risk associated wi
 Time Series Forecasting: An ARIMA model is fitted to forecast the next 30 days of stock prices.
 Need
 The script serves multiple purposes:
-
+            
 To understand the behavior of stock and bond prices over time.
 To build a predictive model for stock prices.
 To assess the risk associated with stock investments.
