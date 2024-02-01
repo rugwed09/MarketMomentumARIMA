@@ -1,7 +1,7 @@
 # MarketMomentumARIMA
 "An advanced stock price forecasting tool leveraging the ARIMA model. Harnessing time series analysis to predict market trends, this repository offers insights into future stock movements, aiding data-driven financial decision-making. Dive in for cutting-edge econometric predictions
 Description
-This R script performs a comprehensive analysis of synthetic stock and bond prices. The analysis is divided into five phases:
+This R script performs a comprehensive analysis of synthetic stock and bond prices. The analysis is divided into five phases:    
 
 Library Loading: Required libraries such as ggplot2, caret, randomForest, and forecast are loaded.
 Data Collection and Preparation: Synthetic stock and bond prices are generated for 100 days.
